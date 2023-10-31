@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E50D28E1-444A-953C-8610-2FFCE86FEA1D" containerWithKeyObject="7CAD0D9C-AA38-4AF0-C67A-1A3283C77441" localFKIndex="E28CCECF-72B9-9A80-33D0-C167F3F6EE2E" name="T_METAS_T_HISTORICOMETAS_FK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:59:31 UTC</createdTime>
+<generatorID>53F7B4C9-4596-DE57-7267-19D8B03036B7</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<referredTableLongName>T_HISTORICOMETAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5EB1D321-3808-112E-FAC6-E4D103FDF210</referredTableID>
+<keyObject>D73A690B-4102-9F12-2AAF-3DBFB15AF9BC</keyObject>
+<referredKeyID>D73A690B-4102-9F12-2AAF-3DBFB15AF9BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_metas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T METAS T HISTORICO FK" directorySegmentName="seg_0" id="B67888BD-51BC-3AD5-5CAC-B866B4E067EE">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:50:31 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<sourcePk>847CEA43-9F4A-CCEE-49D7-FBC61A34439F</sourcePk>
+<targetPk>294E02B8-F7DA-972E-E0B3-8C7F06C3E4AD</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C38CF759-8522-B9D3-D4FA-EBBD17584B49</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1032A822-A3BA-B349-4F6D-F1C798A58455</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

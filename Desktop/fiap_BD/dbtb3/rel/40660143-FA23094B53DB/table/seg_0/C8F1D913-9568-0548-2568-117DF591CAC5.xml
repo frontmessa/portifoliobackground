@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8F1D913-9568-0548-2568-117DF591CAC5" name="T_USUARIO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>171758BF-F1FD-69C5-43F3-DB3617370290</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="86DE4AB3-3C2F-9D6D-36D1-C98A19C6B954">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>C70E3484-779B-6D68-3147-1416050DBF10</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_senha" id="EA0E3050-7325-EA0F-D2A2-5A74A82B3A94">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>8D342A6E-14F2-875F-D9E1-A7C9F8125FEC</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pessoa" id="9D4C23F9-BCA7-8B8F-14CB-68A4BD7F5E5B">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>27FC4EB1-B992-478A-6AC2-744124B44359</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sd_email" id="A04939F1-DF93-1A84-2AEE-C2F496DE6E7D">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>BB954104-BB6C-F46C-DD33-DF7DCFA245DA</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cpf" id="73ABBC50-E849-A573-5C34-729FCB0CE5B1">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>800B5235-9891-7F8D-1954-87A0BA9D6A3B</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pais" id="BACC7D38-5AAC-8CE1-2FDD-F9E0AD311F5E">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>1853CCF4-5CEA-2582-A9DD-A970B34A1513</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="CFD99575-65F4-E814-261E-64FDE0900A52">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>38073097-90B2-3C05-AFAA-5D33707F8DBA</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="09C3A417-5F0C-F251-50F2-27781F8FAB7B">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>C92266F5-8EAB-7D7D-2239-97066AD14721</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_customensal" id="E1B6F4A8-ABC7-B050-FCD8-C86DE35577B8">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>4580747A-4BEB-53FB-D143-FF63F71A0FCF</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEF9FC0B-063C-AB25-86D3-9E84DFA8E367" name="T_USUARIO_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>8E5D4808-2951-7CEF-6259-9C54859CE879</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA0E3050-7325-EA0F-D2A2-5A74A82B3A94"/>
+<colUsage columnID="86DE4AB3-3C2F-9D6D-36D1-C98A19C6B954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

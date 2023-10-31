@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="171758BF-F1FD-69C5-43F3-DB3617370290" name="T USUARIO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:21:52 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd pessoa" id="C70E3484-779B-6D68-3147-1416050DBF10">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:25:12 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd senha" id="8D342A6E-14F2-875F-D9E1-A7C9F8125FEC">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:22:17 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm pessoa" id="27FC4EB1-B992-478A-6AC2-744124B44359">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:24:15 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sd email" id="BB954104-BB6C-F46C-DD33-DF7DCFA245DA">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:24:27 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm cpf" id="800B5235-9891-7F8D-1954-87A0BA9D6A3B">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:24:41 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd pais" id="1853CCF4-5CEA-2582-A9DD-A970B34A1513">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:25:53 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm cidade" id="38073097-90B2-3C05-AFAA-5D33707F8DBA">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:27:10 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl salario" id="C92266F5-8EAB-7D7D-2239-97066AD14721">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:34:10 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl customensal" id="4580747A-4BEB-53FB-D143-FF63F71A0FCF">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:42:36 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E5D4808-2951-7CEF-6259-9C54859CE879" name="T_USUARIO_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:24:13 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D342A6E-14F2-875F-D9E1-A7C9F8125FEC</attributeRef>
+<attributeRef>C70E3484-779B-6D68-3147-1416050DBF10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="061C5C7F-11EB-7F23-B4EA-063166C98911" name="T_HISTORICO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>1032A822-A3BA-B349-4F6D-F1C798A58455</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_metas" id="AEA0F5C3-307D-34A6-5733-6CF91326D190">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>462F1944-BFAC-DE5B-7036-0F1E21A866D9</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_aportesmensal" id="E71D84E3-15F7-6BE8-F1C8-BC7C17D9D58E">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>969A00F0-13C6-4B6C-5EA2-187F452F5C53</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_METAS_cd_metas" id="16CEF6A1-616A-6564-BC99-01845478B759">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>58E022F2-658A-ADDF-8DBF-9373B528FA9D</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_metas11" id="3C549064-1BD2-63B8-03C9-3EA3214CB0D8">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:59:31 UTC</createdTime>
+<generatorID>BD99842A-ED31-93A7-8F81-7C40B4DD7841</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C64F4B72-5887-F0DB-63AF-731DBE9A8FD6" name="T_HISTORICO_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<generatorID>294E02B8-F7DA-972E-E0B3-8C7F06C3E4AD</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEA0F5C3-307D-34A6-5733-6CF91326D190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B27CC304-432F-7198-1804-9D4FE726D904" name="T_HISTORICO__IDX">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:53:10 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B67888BD-51BC-3AD5-5CAC-B866B4E067EE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="16CEF6A1-616A-6564-BC99-01845478B759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F18676E5-F975-AA0D-C015-FEC453C6611B" name="T_HISTORICO__IDXv1">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:59:31 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B67888BD-51BC-3AD5-5CAC-B866B4E067EE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="16CEF6A1-616A-6564-BC99-01845478B759"/>
+<colUsage columnID="3C549064-1BD2-63B8-03C9-3EA3214CB0D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

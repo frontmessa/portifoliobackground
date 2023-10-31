@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1032A822-A3BA-B349-4F6D-F1C798A58455" name="T HISTORICO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:47:38 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd metas" id="462F1944-BFAC-DE5B-7036-0F1E21A866D9">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:47:54 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl aportesmensal" id="969A00F0-13C6-4B6C-5EA2-187F452F5C53">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:48:26 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd metas1" id="58E022F2-658A-ADDF-8DBF-9373B528FA9D">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:50:31 UTC</createdTime>
+<generatorID>B67888BD-51BC-3AD5-5CAC-B866B4E067EE</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F84F47C4-EF5E-5DA8-A7BF-519B499DC172</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd metas11" id="BD99842A-ED31-93A7-8F81-7C40B4DD7841">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:59:09 UTC</createdTime>
+<generatorID>B67888BD-51BC-3AD5-5CAC-B866B4E067EE</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AC2A898F-3951-584F-772C-89E5A6A4EAEF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="294E02B8-F7DA-972E-E0B3-8C7F06C3E4AD" name="T_HISTORICO_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:48:25 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>462F1944-BFAC-DE5B-7036-0F1E21A866D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

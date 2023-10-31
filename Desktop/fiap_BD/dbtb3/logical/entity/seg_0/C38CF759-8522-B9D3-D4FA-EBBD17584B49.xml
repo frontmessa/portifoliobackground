@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C38CF759-8522-B9D3-D4FA-EBBD17584B49" name="T METAS">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:34:31 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd metas" id="F84F47C4-EF5E-5DA8-A7BF-519B499DC172">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:35:15 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm objetivo" id="D0876E6D-B470-F294-20CF-4972F4479EE9">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:36:16 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt limite" id="E0E95034-6966-882D-9688-A56121FD79EE">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:36:38 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp meta" id="814FCFF4-EA68-12F9-375B-F57FDC101F10">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:38:34 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl status" id="F9012A9F-0F45-796F-55FA-5352DF28D85A">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:39:17 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl aportemensal" id="931C6CC9-CF26-3D3B-F662-96A58CA2D5F2">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:40:28 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd senha" id="3487B967-B1E9-55F6-9361-056A4151DAA0">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:47:15 UTC</createdTime>
+<generatorID>9DE355AF-E903-D9B8-C8E6-08E226F85781</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<referedAttribute>8D342A6E-14F2-875F-D9E1-A7C9F8125FEC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd pessoa" id="A0E93CAD-E26A-77B1-D2A4-4FC7D6E3AEB3">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:47:15 UTC</createdTime>
+<generatorID>9DE355AF-E903-D9B8-C8E6-08E226F85781</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<referedAttribute>C70E3484-779B-6D68-3147-1416050DBF10</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd metas" id="4EABB4F1-F79F-2C22-1AA3-D06AF1D5F11B">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:50:39 UTC</createdTime>
+<generatorID>B67888BD-51BC-3AD5-5CAC-B866B4E067EE</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>462F1944-BFAC-DE5B-7036-0F1E21A866D9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd metas1" id="AC2A898F-3951-584F-772C-89E5A6A4EAEF">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:59:09 UTC</createdTime>
+<generatorID>53F7B4C9-4596-DE57-7267-19D8B03036B7</generatorID>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<referedAttribute>EBF5950C-6343-5B18-2055-A5FB20540D19</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="847CEA43-9F4A-CCEE-49D7-FBC61A34439F" name="T_METAS_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:35:59 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<engineerTo>
+<item key="40660143-983F-4F88-4FD3-FA23094B53DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F84F47C4-EF5E-5DA8-A7BF-519B499DC172</attributeRef>
+<attributeRef>AC2A898F-3951-584F-772C-89E5A6A4EAEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

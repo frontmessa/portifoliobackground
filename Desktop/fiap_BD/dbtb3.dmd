@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dbtb3" id="59EDAF89-BCAC-903B-4149-3CB7FECE7801" version="3.5">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-10-31 17:21:21 UTC</createdTime>
+<ownerDesignName>dbtb3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>59EDAF89-BCAC-903B-4149-3CB7FECE7801</designId>
+</OSDM_Design>

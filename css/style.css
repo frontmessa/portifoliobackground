@@ -15,8 +15,12 @@ body
 	font-weight: 400;
 }
 .Background{
-    background-image:url(/images/back1.jpeg) ;
+    background-image:url(/images/back1.jpeg);
+    filter: saturate(40%);
+    
+    
 }
+
 
 /* start all section */
 #home,

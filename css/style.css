@@ -15,8 +15,8 @@ body
 	font-weight: 400;
 }
 .Background{
-    background-image:url(/images/back1.jpeg);
-    filter: saturate(40%);
+    background-image:url(/images/back2.jpeg);
+   
     
     
 }
@@ -191,7 +191,7 @@ h1,h2,h3,h4,h5
 #home h1
     {
         border: 2px solid white;
-        color: white;
+        color: #1E90FF;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;

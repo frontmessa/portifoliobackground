@@ -20,6 +20,24 @@ body
     
     
 }
+.bnt2:hover{
+background-color: #1E90FF;
+border-color: transparent;
+color: white;
+}
+.bnt2{
+    text-decoration-color: white;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    padding-top: 18px;
+    transition: all 0.4s ease-in-out;
+}
 
 
 /* start all section */

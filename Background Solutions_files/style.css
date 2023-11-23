@@ -15,7 +15,7 @@ body
 	font-weight: 400;
 }
 .Background{
-    background-image filter:opacity(70%) :url(/Background Solutions_files/images/back1.jpeg)
+    background-image:url(/images/back1.jpeg)
     
     
 }

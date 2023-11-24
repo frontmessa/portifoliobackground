@@ -61,6 +61,11 @@ color: white;
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
 
+#nos,
+#nos .fp-slide,
+#nos .fp-tableCell,
+
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell
@@ -79,7 +84,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact, #nos
     {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -313,7 +318,42 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
-/* end about */
+
+
+/* start nos */
+#nos h4
+    {
+        padding: 15px 0;
+		color: #1E90FF;
+    }
+#nos .progress
+    {
+        border-radius: 4px;
+        background: #ffffff;
+        height: 4px;
+    }
+#nos .progress .progress-bar-danger
+    {
+        background: #1E90FF;
+    }
+#nos .text-top
+    {
+        padding-top: 50px;
+    }
+#nos span
+    {
+        color: #ffffff;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 6px;
+    }
+#nos small
+    {
+        font-weight: bold;
+        float: right;
+    }
+
+
 
 /* start portfolio */
 #portfolio
@@ -454,3 +494,12 @@ footer hr
         width: 18px;
     }
 /* end social icon */
+   
+
+.sobrenos{
+    width: 400px;
+}
+
+.txtcadastro{
+    font-size: 25px;
+}

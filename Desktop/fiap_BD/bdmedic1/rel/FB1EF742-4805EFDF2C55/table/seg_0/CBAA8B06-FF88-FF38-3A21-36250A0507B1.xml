@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBAA8B06-FF88-FF38-3A21-36250A0507B1" name="T_MEDICO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>52AF63A8-5341-9BB3-24C2-2C1307F8301F</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_crm" id="0C4E2A7E-F643-7BBE-53ED-C151DCB33309">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>71621CB4-7579-BA43-B18D-B3D1C07F8605</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="080453C5-E774-FCF4-11F6-06B55B97578F">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>D8587417-14F4-FBE9-E943-4029D1C9BB24</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_senha" id="BD5882E7-9333-5B91-64DA-5D4D0C6AF917">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>420335EE-6A02-D882-0605-F515BBA50AB3</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialidade" id="06316123-491D-641F-AA36-D6668B6CCC0E">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>F9B8ED37-B499-451F-9ECB-E4FC3FD6BA5C</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MEDICO_ID" id="7B4AC9A5-B2A7-12C3-2765-2C86A95B0CA4">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="830A5D6F-BF38-84E3-B111-74C72DC3D93C" name="T_MEDICO_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7B4AC9A5-B2A7-12C3-2765-2C86A95B0CA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

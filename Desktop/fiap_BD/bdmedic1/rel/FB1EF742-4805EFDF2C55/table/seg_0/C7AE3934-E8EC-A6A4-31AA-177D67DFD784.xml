@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7AE3934-E8EC-A6A4-31AA-177D67DFD784" name="Relation_2">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PACIENTE_cd_paciente" id="FB9F1191-B66F-FDAA-C918-1BF01DE95E14">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0566E5EC-2430-9CF3-FC94-B59C9DFE97A8" referredColumn="1DB015D0-3C4F-589D-880A-F14F9711A149"/>
+</associations>
+</Column>
+<Column name="T_AGENDA_T_AGENDA_ID" id="3E88A34C-A3F2-3A4F-2BD9-96EE211A4263">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2321AFA8-DD56-4A11-E887-228C2107EC33" referredColumn="62ACC489-7ACE-2BAC-EEAB-32B62CAAED3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD8F3848-EFC2-D650-0E91-C61AED4ACDDC" name="Relation_2_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB9F1191-B66F-FDAA-C918-1BF01DE95E14"/>
+<colUsage columnID="3E88A34C-A3F2-3A4F-2BD9-96EE211A4263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82BD5D80-E45C-42DD-52BA-16888C8ABA15" name="Relation_2_T_PACIENTE_FK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>F17FB922-D30E-64E7-705E-EE42C6C76D65</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB9F1191-B66F-FDAA-C918-1BF01DE95E14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F51605E7-D4D9-B720-3194-B03F4A762AE7" name="Relation_2_T_AGENDA_FK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>F17FB922-D30E-64E7-705E-EE42C6C76D65</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E88A34C-A3F2-3A4F-2BD9-96EE211A4263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

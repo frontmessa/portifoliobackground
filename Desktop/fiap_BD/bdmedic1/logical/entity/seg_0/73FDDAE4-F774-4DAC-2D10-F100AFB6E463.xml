@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73FDDAE4-F774-4DAC-2D10-F100AFB6E463" name="T_AGENDA">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:38:56 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pacente" id="48B2144B-FE6C-0A67-813D-9231DBFA8EEA">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:39:06 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_crm" id="46AEE612-30E4-72D2-15DF-D43B4C67F6E7">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:39:20 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_horario_agendado" id="CC00A452-D53F-18DF-D295-65FCE7B11546">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:39:33 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_horario_entrada" id="9021BED9-9E55-09BE-BE7B-5C01D012711C">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:39:51 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_horario_saida" id="B6900839-42E0-D659-CE02-AFC54451811D">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:40:06 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_data" id="721C6EC4-1BC4-8380-80EE-1BC1771B3C48">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:40:21 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

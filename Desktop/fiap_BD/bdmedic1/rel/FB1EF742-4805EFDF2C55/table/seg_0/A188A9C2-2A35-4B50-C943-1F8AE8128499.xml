@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A188A9C2-2A35-4B50-C943-1F8AE8128499" name="T_PACIENTE">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>57F57CC2-F3E5-88C8-9BDF-43D77D1D014D</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_paciente" id="1DB015D0-3C4F-589D-880A-F14F9711A149">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>F8237660-A513-FB5D-5CB6-EA08EFB8DFDE</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="B2008898-70E7-05F1-E425-B13313B3872D">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>E85556F8-163D-2033-12BD-CCEDB72388DC</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="948E7F20-D911-3BC1-809B-1046271032AF">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>A347C602-2939-C722-5443-864F934BF04F</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_emergencia" id="FB92198A-FF00-093A-CB4B-307D6F3AAB97">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>3E56E758-503E-648F-7905-0C70F3CE9CD6</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="E7FC93A9-7629-92F3-3FC8-F8D63823C03D">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>563B894E-A787-2688-8905-8C18770DB484</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_urgencia" id="234781AE-DC25-7A8F-910F-2610E2DA368C">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>A8FE6E32-5C85-A2ED-BF89-BA188ED2E5B3</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="7BAA9CA2-75B0-CF81-5E50-059AA47DBF47">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>62EED768-63EB-216B-BC0F-979D48DCFCA0</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A6BA83A-E035-9221-6512-516F1649850B" name="T_PACIENTE_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>D9496602-3E69-BA61-2D64-30A65497F68D</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DB015D0-3C4F-589D-880A-F14F9711A149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

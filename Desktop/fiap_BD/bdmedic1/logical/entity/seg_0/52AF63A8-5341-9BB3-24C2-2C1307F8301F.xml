@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52AF63A8-5341-9BB3-24C2-2C1307F8301F" name="T_MEDICO">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:37:43 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_crm" id="71621CB4-7579-BA43-B18D-B3D1C07F8605">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:38:09 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="D8587417-14F4-FBE9-E943-4029D1C9BB24">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:38:23 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_senha" id="420335EE-6A02-D882-0605-F515BBA50AB3">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:38:32 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_especialidade" id="F9B8ED37-B499-451F-9ECB-E4FC3FD6BA5C">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:38:42 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<engineerTo>
+<item key="FB1EF742-4272-F180-BA08-4805EFDF2C55" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

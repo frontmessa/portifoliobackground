@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5645C934-CFB2-CBFD-B661-A59BB2E2883F" name="T_AGENDA">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>73FDDAE4-F774-4DAC-2D10-F100AFB6E463</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pacente" id="A2C01B12-6D38-7A67-F22E-23FA69DB039E">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>48B2144B-FE6C-0A67-813D-9231DBFA8EEA</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_crm" id="CECAB59E-CB4D-97E9-5270-A0E76435FFC0">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>46AEE612-30E4-72D2-15DF-D43B4C67F6E7</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_horario_agendado" id="86F887BE-9CFA-9201-A702-87670B6D4A30">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>CC00A452-D53F-18DF-D295-65FCE7B11546</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_horario_entrada" id="E2372141-799E-EC4C-3BFC-FCAC57578F55">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>9021BED9-9E55-09BE-BE7B-5C01D012711C</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_horario_saida" id="68BED2F0-32FA-04A0-6D84-847942280FA5">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>B6900839-42E0-D659-CE02-AFC54451811D</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_data" id="6C9BC0F9-40FB-B663-3E4C-E8CB3C22127E">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>721C6EC4-1BC4-8380-80EE-1BC1771B3C48</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AGENDA_ID" id="62ACC489-7ACE-2BAC-EEAB-32B62CAAED3F">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C2404CF-77AF-3BDE-2673-0FBFD0D95955" name="T_AGENDA_PK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="62ACC489-7ACE-2BAC-EEAB-32B62CAAED3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2321AFA8-DD56-4A11-E887-228C2107EC33" containerWithKeyObject="C7AE3934-E8EC-A6A4-31AA-177D67DFD784" localFKIndex="F51605E7-D4D9-B720-3194-B03F4A762AE7" name="Relation_2_T_AGENDA_FK">
+<createdBy>caiomessa</createdBy>
+<createdTime>2023-11-24 14:54:59 UTC</createdTime>
+<generatorID>F17FB922-D30E-64E7-705E-EE42C6C76D65</generatorID>
+<ownerDesignName>bdmedic1</ownerDesignName>
+<referredTableLongName>T_AGENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5645C934-CFB2-CBFD-B661-A59BB2E2883F</referredTableID>
+<keyObject>6C2404CF-77AF-3BDE-2673-0FBFD0D95955</keyObject>
+<referredKeyID>6C2404CF-77AF-3BDE-2673-0FBFD0D95955</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_AGENDA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

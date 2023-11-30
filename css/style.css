@@ -538,5 +538,9 @@ footer hr {
     #myVideo{
         width: 1200px;
     }
+    .sobrenos{
+        align-items: center;
+
+    }
     
 }

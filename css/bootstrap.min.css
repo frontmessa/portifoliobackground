@@ -295,6 +295,7 @@ th {
 
     .navbar {
         display: none
+        
     }
 
     .btn>.caret,
@@ -5192,7 +5193,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-static-top {
+        z-index: 5;
         border-radius: 0
+        
     }
 }
 
@@ -5500,7 +5503,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
     color: #5e5e5e;
-    background-color: transparent
+    background-color: black
 }
 
 .navbar-default .navbar-text {

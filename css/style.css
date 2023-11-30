@@ -534,3 +534,10 @@ footer hr {
     height: 100%;
 
 }
+@media (max-width: 800px) {
+    #myVideo{
+        width: 1000px;
+        height: 1000px;
+    }
+    
+}

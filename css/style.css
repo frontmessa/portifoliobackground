@@ -15,16 +15,8 @@ body {
     overflow: auto;
 }
 
-.Background {
-    /* background-image: url(/images/back2.jpeg); */
-
-
-
-
-}
-
 .bnt2:hover {
-    background-color: #1E90FF;
+    background-color: #945bcc;
     border-color: transparent;
     color: white;
 }
@@ -227,7 +219,7 @@ h5 {
 
 #home h1 {
     border: 2px solid white;
-    color: #1E90FF;
+    color: #945bcc;
     display: inline-block;
     letter-spacing: 6px;
     padding: 25px 35px;
@@ -252,7 +244,7 @@ h5 {
 }
 
 #home .btn:hover {
-    background: #1E90FF;
+    background: #945bcc;
     border-color: transparent;
 }
 
@@ -274,7 +266,7 @@ h5 {
 #work .media .fa {
     border: 2px solid #ffffff;
     border-radius: 50%;
-    color: #1E90FF;
+    color: #945bcc;
     font-size: 24px;
     margin-right: 24px;
     width: 60px;
@@ -301,7 +293,7 @@ h5 {
 /* start about */
 #about h4 {
     padding: 15px 0;
-    color: #1E90FF;
+    color: #945bcc;
 }
 
 #about .progress {
@@ -311,7 +303,7 @@ h5 {
 }
 
 #about .progress .progress-bar-danger {
-    background: #1E90FF;
+    background: #945bcc;
 }
 
 #about .text-top {
@@ -334,7 +326,7 @@ h5 {
 /* start nos */
 #nos h4 {
     padding: 15px 0;
-    color: #1E90FF;
+    color: #945bcc;
 }
 
 #nos .progress {
@@ -344,7 +336,7 @@ h5 {
 }
 
 #nos .progress .progress-bar-danger {
-    background: #1E90FF;
+    background: #945bcc;
 }
 
 #nos .text-top {
@@ -382,7 +374,7 @@ h5 {
 }
 
 .portfolioTxt {
-    color: #1E90FF;
+    color: #945bcc;
 
 }
 
@@ -424,7 +416,7 @@ h5 {
 #contact .fa {
     border: 2px solid #ffffff;
     border-radius: 50%;
-    color: #1E90FF;
+    color: #945bcc;
     width: 50px;
     height: 50px;
     line-height: 45px;
@@ -446,7 +438,7 @@ h5 {
 }
 
 #contact input[type="submit"] {
-    background: #1E90FF;
+    background: #945bcc;
     border: 2px solid transparent;
     color: #ffffff;
     font-weight: bold;
@@ -455,7 +447,7 @@ h5 {
 
 #contact input[type="submit"]:hover {
     background: #ffffff;
-    color: #1E90FF;
+    color: #945bcc;
 }
 
 /* end contact */
@@ -502,8 +494,8 @@ footer hr {
 
 .social-icon li a:hover,
 .social-icon li a:hover svg path {
-    color: #1E90FF;
-    fill: #1E90FF;
+    color: #945bcc;
+    fill: #945bcc;
 }
 
 .social-icon li a svg {

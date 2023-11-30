@@ -536,8 +536,8 @@ footer hr {
 }
 @media (max-width: 800px) {
     #myVideo{
-        width: 1000px;
-        height: 1000px;
+        width: 1200px;
+        height: auto;
     }
     
 }

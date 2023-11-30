@@ -531,7 +531,7 @@ footer hr {
     font-size: 30px;
     gap: 5px;
 } */
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     #myVideo{
         width: 1200px;
     }

@@ -527,10 +527,11 @@ footer hr {
     height: 100%;
 
 }
-/* .txtnos{
-    font-size: 30px;
-    gap: 5px;
-} */
+.contato{ gap: 5px}
+
+.txtnh{
+ text-align: left;
+}
 @media (max-width: 800px) {
     #myVideo{
         width: 1200px;

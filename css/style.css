@@ -506,6 +506,10 @@ footer hr {
 
 .sobrenos {
   width: 400px;
+  border-radius: 5%;
+}
+.espaco {
+  padding: 80px;
 }
 
 .txtcadastro {

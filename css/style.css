@@ -7,8 +7,8 @@ https://templatemo.com/tm-458-lavish
 */
 
 body {
-  background: #000000;
-  color: white;
+  background: white;
+  color: #ab25c2;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -24,8 +24,8 @@ body {
 .bnt2 {
   text-decoration-color: white;
   background: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid white;
+  color: white;
   font-size: 16px;
   font-weight: bold;
   width: 200px;
@@ -63,12 +63,11 @@ footer .fp-tableCell {
 /* end all section */
 
 /* start all heading */
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #ffffff;
+.titulowhite {
+  color: white;
+}
+h2 {
+  color: #ab25c2;
   font-weight: bold;
 }
 
@@ -209,8 +208,8 @@ h5 {
 }
 
 #home h1 {
-  border: 2px solid white;
-  color: #945bcc;
+  border: 2px solid #ab25c2;
+  color: #ab25c2;
   display: inline-block;
   letter-spacing: 6px;
   padding: 25px 35px;
@@ -223,9 +222,9 @@ h5 {
 
 #home .btn,
 #contactpage .btn {
-  background: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  background-color: #ab25c2;
+  border: 2px solid #ab25c2;
+  color: white;
   font-size: 16px;
   font-weight: bold;
   width: 200px;
@@ -237,6 +236,7 @@ h5 {
 
 #home .btn:hover {
   background: #945bcc;
+  color: #ffffff;
   border-color: transparent;
 }
 
@@ -244,7 +244,10 @@ h5 {
 
 /* start work */
 #work {
-  background: #1a1a1a;
+  background: #ab25c2;
+}
+.txtwork {
+  color: white;
 }
 
 #work h2 {
@@ -258,7 +261,7 @@ h5 {
 #work .media .fa {
   border: 2px solid #ffffff;
   border-radius: 50%;
-  color: #945bcc;
+  color: white;
   font-size: 24px;
   margin-right: 24px;
   width: 60px;
@@ -270,7 +273,7 @@ h5 {
 }
 
 #work .media .fa:hover {
-  background: #ffffff;
+  background: #945bcc;
   cursor: pointer;
 }
 
@@ -303,7 +306,7 @@ h5 {
 }
 
 #about span {
-  color: #ffffff;
+  color: rgb(164 164 164);
   font-weight: bold;
   display: block;
   padding-bottom: 6px;
@@ -348,7 +351,7 @@ h5 {
 
 /* start portfolio */
 #portfolio {
-  background: #1a1a1a;
+  background: #ab25c2;
   text-align: center;
   align-items: center;
 }
@@ -368,7 +371,7 @@ h5 {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-  background: black;
+  background-color: white;
   top: 0;
   left: 0;
   right: 0;
@@ -400,11 +403,11 @@ h5 {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
-  color: #ffffff;
+  color: rgb(164 164 164);
 }
 
 #contact .fa {
-  border: 2px solid #ffffff;
+  border: 2px solid #ab25c2;
   border-radius: 50%;
   color: #945bcc;
   width: 50px;
@@ -419,8 +422,11 @@ h5 {
   border: 2px solid #999;
   border-radius: 0;
   box-shadow: none;
-  color: #ffffff;
+  color: black;
   margin-bottom: 20px;
+}
+.colorpurple {
+  color: #945bcc;
 }
 
 #contact input {
@@ -428,7 +434,7 @@ h5 {
 }
 
 #contact input[type="submit"] {
-  background: #945bcc;
+  background: #ab25c2;
   border: 2px solid transparent;
   color: #ffffff;
   font-weight: bold;
@@ -436,8 +442,8 @@ h5 {
 }
 
 #contact input[type="submit"]:hover {
-  background: #ffffff;
-  color: #945bcc;
+  background: #945bcc;
+  color: #ffffff;
 }
 
 /* end contact */
@@ -473,7 +479,7 @@ footer hr {
 .social-icon li a,
 .social-icon li a svg path {
   border-radius: 50%;
-  color: #606060;
+  color: #ab25c2;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   text-align: center;

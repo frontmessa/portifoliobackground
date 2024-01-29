@@ -1631,12 +1631,12 @@ h3 {
 
 .h4,
 h4 {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .h5,
 h5 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .h6,
@@ -5496,7 +5496,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ab25c2;
+  background-color: #043157;
   /* border-color: #e7e7e7 */
 }
 

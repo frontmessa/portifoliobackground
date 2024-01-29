@@ -7,8 +7,8 @@ https://templatemo.com/tm-458-lavish
 */
 
 body {
-  background: white;
-  color: #ab25c2;
+ 
+  color: #043157;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -16,7 +16,7 @@ body {
 }
 
 .bnt2:hover {
-  background-color: #945bcc;
+  background-color: #043157;
   border-color: transparent;
   color: white;
 }
@@ -67,7 +67,7 @@ footer .fp-tableCell {
   color: white;
 }
 h2 {
-  color: #ab25c2;
+  color: #0560ad;
   font-weight: bold;
 }
 
@@ -196,11 +196,17 @@ h2 {
 
 /* start home */
 #home {
+
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 140px;
   text-align: center;
+}
+.Background{
+  background-image: url(/images/fundo7.png);
+  opacity: 1;
+  
 }
 
 .txtHome {
@@ -208,8 +214,8 @@ h2 {
 }
 
 #home h1 {
-  border: 2px solid #ab25c2;
-  color: #ab25c2;
+  border: 2px solid #043157;
+  color: #043157;
   display: inline-block;
   letter-spacing: 6px;
   padding: 25px 35px;
@@ -222,8 +228,8 @@ h2 {
 
 #home .btn,
 #contactpage .btn {
-  background-color: #ab25c2;
-  border: 2px solid #ab25c2;
+  background-color: #043157;
+  border: 2px solid #043157;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -235,7 +241,7 @@ h2 {
 }
 
 #home .btn:hover {
-  background: #945bcc;
+  background: #043157;
   color: #ffffff;
   border-color: transparent;
 }
@@ -244,7 +250,7 @@ h2 {
 
 /* start work */
 #work {
-  background: #ab25c2;
+  background: #043157;
 }
 .txtwork {
   color: white;
@@ -273,7 +279,7 @@ h2 {
 }
 
 #work .media .fa:hover {
-  background: #945bcc;
+  background: #043157;
   cursor: pointer;
 }
 
@@ -288,7 +294,7 @@ h2 {
 /* start about */
 #about h4 {
   padding: 15px 0;
-  color: #945bcc;
+  color: #0560ad;
 }
 
 #about .progress {
@@ -351,7 +357,7 @@ h2 {
 
 /* start portfolio */
 #portfolio {
-  background: #ab25c2;
+  background: #043157;
   text-align: center;
   align-items: center;
 }
@@ -367,7 +373,7 @@ h2 {
 }
 
 .portfolioTxt {
-  color: #945bcc;
+  color: #043157;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -403,13 +409,13 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
-  color: rgb(164 164 164);
+  color: #0560ad;
 }
 
 #contact .fa {
-  border: 2px solid #ab25c2;
+  border: 2px solid #043157;
   border-radius: 50%;
-  color: #945bcc;
+  color: #043157;
   width: 50px;
   height: 50px;
   line-height: 45px;
@@ -426,7 +432,7 @@ h2 {
   margin-bottom: 20px;
 }
 .colorpurple {
-  color: #945bcc;
+  color: #043157;
 }
 
 #contact input {
@@ -434,7 +440,7 @@ h2 {
 }
 
 #contact input[type="submit"] {
-  background: #ab25c2;
+  background: #0560ad;
   border: 2px solid transparent;
   color: #ffffff;
   font-weight: bold;
@@ -442,7 +448,7 @@ h2 {
 }
 
 #contact input[type="submit"]:hover {
-  background: #945bcc;
+  background: #043157;
   color: #ffffff;
 }
 
@@ -479,7 +485,7 @@ footer hr {
 .social-icon li a,
 .social-icon li a svg path {
   border-radius: 50%;
-  color: #ab25c2;
+  color: #043157;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   text-align: center;
@@ -487,8 +493,8 @@ footer hr {
 
 .social-icon li a:hover,
 .social-icon li a:hover svg path {
-  color: #945bcc;
-  fill: #945bcc;
+  color: #043157;
+  fill: #043157;
 }
 
 .social-icon li a svg {

@@ -204,7 +204,7 @@ h2 {
   text-align: center;
 }
 .Background{
-  background-image: url(/images/fundo7.png);
+  /* background-image: url(/images/fundo7.png); */
   opacity: 1;
   
 }

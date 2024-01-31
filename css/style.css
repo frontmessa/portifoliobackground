@@ -196,7 +196,7 @@ h2 {
 
 /* start home */
 #home {
-
+ background-image: url(../images/fundo8.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 120px;

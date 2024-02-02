@@ -1,0 +1,136 @@
+body {
+    /* background-image: url(../images/fundo8.png); */
+    background-color: #F3F4F6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    height: 64px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #043157;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.menu li:hover {
+    background-color: #f2f2f2;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(30vh - 6px);
+    text-align: center;
+    padding: 0 32px;
+}
+.home h1 {
+    font-size: 45px;
+    color: #0560ad;
+    margin-bottom: 16px;
+}
+.home p {
+    font-size: 15px;
+    color: #043157;
+    max-width: 600px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #043157;
+}
+
+.card h3 {
+    /* font-size: 1.125rem; */
+    color: #0560ad;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card ul {
+    margin-bottom: 24px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    color: #043157;
+    margin-bottom: 8px;
+}
+
+.card ul li::before {
+    content: '✔';
+    color: #0560ad;
+    margin-right: 8px;
+}
+
+.card p {
+    color:#0560ad;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.card button {
+    background-color: #043157;
+    color: white;
+    padding: 12px 54px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.card button:hover {
+    background-color: #0560ad;
+}
+.txtprice h1{
+    color:#0560ad ;
+    text-align: center;
+}
+
+.txtprice p {
+    /* background-color: #F3F4F6; */
+    font-size: 20px;
+    color: #043157;
+    max-width: 1200px;
+    margin: auto;
+}

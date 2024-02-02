@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbase | Create New Chatbot</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 0 16px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .data-sources {
+            width: 600px;
+            background: #fff;
+            border-radius: 6px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        }
+
+        .file-drop-area {
+            border: 2px dashed #ddd;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .file-drop-area:hover {
+            border-color: #333;
+        }
+
+        .sources {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background-color: #4caf50;
+            transition: width 0.3s;
+            position: absolute;
+        }
+
+        .btn {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>Chatbase</div>
+        <div>Help Account ></div>
+    </div>
+    <div class="main">
+        <div class="data-sources">
+            <h2>Data Sources</h2>
+            <p>Add your data sources to train your chatbot</p>
+            <div class="file-drop-area">
+                <span class="fake-btn">Choose files</span>
+                <span class="file-msg">or drag and drop files here</span>
+                <input class="file-input" type="file" multiple>
+            </div>
+            <small>If you are uploading a PDF, make sure you can select/highlight the text.</small>
+        </div>
+        <div class="sources">
+            <h3>Files</h3>
+            <div class="progress-bar">
+                <div class="progress-bar-fill"></div>
+            </div>
+            <button class="btn">Create Chatbot</button>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.querySelector('.file-input');
+        const progressBarFill = document.querySelector('.progress-bar-fill');
+
+        fileInput.addEventListener('change', function () {
+            const files = this.files;
+            const totalSize = Array.from(files).reduce((total, file) => total + file.size, 0);
+            // Example: Update progress bar
+            // Here we assume 400,000 limit is in bytes and the uploaded size shouldn't exceed this
+            const progressPercentage = Math.min(100, (totalSize / 400000) * 100);
+            progressBarFill.style.width = progressPercentage + '%';
+        });
+    </script>
+</body>
+
+</html>

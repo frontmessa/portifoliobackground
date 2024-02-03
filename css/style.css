@@ -16,7 +16,7 @@ body {
 }
 
 .bnt2:hover {
-  background-color: #043157;
+  background-color: #0560ad;
   border-color: transparent;
   color: white;
 }
@@ -374,6 +374,13 @@ h2 {
 
 .portfolioTxt {
   color: #043157;
+}
+.bordasP{
+  border: solid;
+  border-radius: 5%;
+}
+.bordaA{
+  border-radius: 5%;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {

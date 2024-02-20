@@ -33,6 +33,7 @@
   <!-- custom -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="/precos/preco.css" />
+  <link rel="stylesheet" href="css/nav.css" />
 </head>
 
 <body>
@@ -250,7 +251,7 @@
 
 
             <div class="grid">
-              <div class="card">
+              <div class="cardprice">
                 <h3>Basico</h3>
                 <ul>
                   <li>1.000.000 de tokens/mês</li>
@@ -261,15 +262,16 @@
                   <li>Capitação de lead</li>
                   <li>Integração com WhatsApp</li>
                   <li>Integração com instagram</li>
-
                 </ul>
-                <p>R$199,90</p>
-                <a href="
+                <div class="valores">
+                  <p>R$199,90</p>
+                  <a href="
                   https://wa.me/+5511962032109?text=Ol%C3%A1,%20estou%20interessado%20no%20plano%20Basico
-                "><button>Entrar em contato</button></a>
-                <a href="/planos/basic.html"><button>saiba mais!</button></a>
+                "><button class="">Entrar em contato</button></a>
+                  <a href="/planos/basic.html"><button>saiba mais!</button></a>
+                </div>
               </div>
-              <div class="card">
+              <div class="cardprice">
                 <h3>Plus</h3>
                 <ul>
                   <li>4.000.000 de tokens/mês</li>
@@ -283,14 +285,16 @@
                   <li>Integração com instagram</li>
                   <li>opção para escolhr GPT-4</li>
                 </ul>
-                <p>R$450,00</p>
-                <a href="
+                <div class="valores">
+                  <p>R$450,00</p>
+                  <a href="
                   https://wa.me/+5511962032109?text=Ol%C3%A1,%20estou%20interessado%20no%20plano%20Plus%20
 
                 "><button>Entrar em contato</button></a>
-                <a href="/planos/plus.html"><button>saiba mais!</button></a>
+                  <a href="/planos/plus.html"><button>saiba mais!</button></a>
+                </div>
               </div>
-              <div class="card">
+              <div class="cardprice">
                 <h3>Elite</h3>
                 <ul>
                   <li>14.000.000 de tokens/mês</li>
@@ -305,13 +309,15 @@
                   <li>opção para escolhr GPT-4</li>
 
                 </ul>
-                <p>R$1.500,00</p>
-                <a href="
+                <div class="valores">
+                  <p>R$1.500,00</p>
+                  <a href="
                     https://wa.me/+5511962032109?text=Ol%C3%A1,%20estou%20interessado%20no%20plano%20Elite
                 "><button>Entrar em contato</button></a>
-                <a href="/planos/elite.html"><button>saiba mais!</button></a>
+                  <a href="/planos/elite.html"><button>saiba mais!</button></a>
+                </div>
               </div>
-              <div class="card">
+              <div class="cardprice">
                 <h3>Camaleão</h3>
                 <ul>
                   <li>ILIMITADO de tokens/mês</li>
@@ -328,11 +334,13 @@
                   <li>Acesso à API</li>
                   <li>Integração com sistema ERP</li>
                 </ul>
-                <p>Valor sob consulta</p>
-                <a href="
+                <div class="valores">
+                  <p>Valor sob consulta</p>
+                  <a href="
                      https://wa.me/+5511962032109?text=Ol%C3%A1,%20estou%20interessado%20no%20plano%20Camale%C3%A3o
                 "><button>Entrar em contato</button></a>
-                <a href="/planos/camaleao.html"><button>saiba mais!</button></a>
+                  <a href="/planos/camaleao.html"><button>saiba mais!</button></a>
+                </div>
               </div>
 
               <!-- Repeat for each tier as needed -->
@@ -451,6 +459,51 @@
             abordagem personalizada adapta-se ao seu ambiente de negócios, oferecendo soluções ajustadas e
             direcionadas para atender às demandas exclusivas do seu sistema empresarial.</p>
         </div>
+        <div id="accordion">
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Collapsible Group Item #2
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <!-- Adicione mais perguntas e respostas conforme necessário -->
       </div>
 

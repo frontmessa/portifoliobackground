@@ -5177,8 +5177,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container > .navbar-header {
-  margin-right: -180px;
-  margin-left: -15px;
+  width: 100%;
+  /* margin-right: -180px;
+  margin-left: -15px; */
 }
 
 @media (min-width: 768px) {

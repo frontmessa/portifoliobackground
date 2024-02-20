@@ -129,9 +129,24 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+.btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+  border-color: transparent;
+  font-size: 23px;
+}
+
 
 @media(max-width: 560px) {
     
     .grid{ grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));}
+    .btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+  border-color: transparent;
+  font-size: 15px;
+}
     
   }

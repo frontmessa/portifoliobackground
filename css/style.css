@@ -569,6 +569,9 @@ footer hr {
   color: #333;
 }
 
+.valorplanos{
+  display: table-caption;
+}
 @media (max-width: 800px) {
   #myVideo {
     width: 1200px;
